@@ -4,6 +4,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 import ReactDOM from 'react-dom/client';
+import defaultLogo from '../../public/resources/defaultLogo.png';
 import {
   InitialWindow,
   LocallyPersistentWorkspace,
@@ -80,7 +81,7 @@ export default function App() {
       }
       helpLink="https://osrf.github.io/ros2multirobotbook/rmf-core.html"
       reportIssueLink="https://github.com/open-rmf/rmf-web/issues"
-      resources={{ fleets: {}, logos: { header: '/resources/defaultLogo.png' } }}
+      resources={{ fleets: {}, logos: { header: defaultLogo } }}
       tasks={{
         allowedTasks: [
           { taskDefinitionId: 'patrol' },

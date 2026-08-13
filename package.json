@@ -39,7 +39,15 @@
     },
     "patchedDependencies": {
       "@react-three/fiber": "patches/@react-three__fiber.patch"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@nestjs/core",
+      "@openapitools/openapi-generator-cli",
+      "@swc/core",
+      "canvas",
+      "core-js-pure",
+      "esbuild"
+    ]
   },
   "overrides": {
     "react-error-overlay": "6.0.9"

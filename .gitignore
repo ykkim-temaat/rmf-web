@@ -7,3 +7,11 @@ __pycache__/
 /.venv/
 
 *.tsbuildinfo
+
+# Build & ROS 2 artifacts
+build/
+install/
+log/
+
+# IDE & Editor configs
+.vscode/
